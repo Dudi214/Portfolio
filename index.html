@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <title>Portfólio Eduardo dias</title>
+    <link rel="icon" type="image/png" href="src/logo2.png" />
+
+
+</head>
+
+
+<body onload="loading()">
+
+    <div class="box-load">
+        <div class="pre">
+
+        </div>
+        <p>Portfólio Eduardo dias
+        </p>
+    </div>
+
+    <div class="mascara-contact" onclick="desligarMascara()">
+    </div>
+
+    <div class="contact-me">
+
+        <form action="https://formcarry.com/s/nuXu_LE9pIh" method="POST" enctype="multipart/form-data">
+            <p>Seu Nome</p>
+            <input type="text" placeholder="Nome" id="name-form" name="Nome" autocomplete="off">
+            <p>Número</p>
+            <input type="tel" placeholder="(xx) xxxxx-xxxx" id="number-form" name="Número" onkeyup="handlePhone(event)"
+                maxlength="15" autocomplete="off">
+            <p>Informações sobre o Pedido</p>
+            <textarea placeholder="Digite aqui" name="Área de texto" autocomplete="off"></textarea>
+            <button type="submit" id="btnContact">Enviar</button>
+
+        </form>
+
+    </div>
+    <main>
+
+        <nav>
+
+            <ul class="nav-links">
+
+                <li class="links">
+                    <a href="#inicio" style="--vlr:1">Início</a>
+                </li>
+
+                <li class="links" id="link2">
+                    <a href="#Projetos" style="--vlr:3">Projetos</a>
+                </li>
+
+                <li class="links" id="link1">
+                    <a href="#Habilidades" style="--vlr:2">Habilidades</a>
+                </li>
+                <li class="links" id="link3">
+                    <a href="#contatos" style="--vlr:4">Contatos</a>
+                </li>
+            </ul>
+
+           
+
+            <button class="btn" id="btn-nav">Contrate-me</button>
+
+        </nav>
+       
+
+
+        <header class="container">
+            <div class="description">
+                <span class="blur"></span>
+                <span class="blur"></span>
+
+                <span class="span-description">
+                   Vamos desenvolver seu projeto
+                </span>
+                <h1>Olá, eu sou <span class="name typing">Eduardo dias</span>, <br><span class="frontend-text">Frontend
+                        Developer</span></h1>
+                <p>Sou um desenvolvedor front-end atuando como freelancer,
+                    dedicado a transformar designs em experiências
+                    web excepcionais. Constantemente atualizo minhas
+                    habilidades para oferecer soluções inovadoras
+                    e de alta qualidade.
+                    Vamos trabalhar juntos para criar algo incrível?</p>
+
+                <button class="btn" id="start">Começar</button>
+            </div>
+
+            <div class="image-box">
+                <img src="src/edu.jpg">
+            </div>
+
+        </header>
+
+
+
+        <div class="section-projects">
+
+
+
+            <div class="text-section">
+                <h1>Principais Projetos</h1>
+                <button class="btn" id="projects-btn">
+                    <a href="https://api.whatsapp.com/send?phone=5524999996655" target="_blank">Entrar em
+                        Contato</a></button>
+            </div>
+            <ul id="projects-list">
+
+                <li class="project-card">
+
+                    <div class="hidden">
+                        <a href="https://dudi214.github.io/CofeeShop/" target="_blank">
+                            <img src="src/cafe.png">
+                        </a>
+                        <p>
+                            Cafeteria
+                             <br> HTML CSS JAVASCRipt
+                        </p>
+                    </div>
+                </li>
+
+                <li class="project-card">
+                    <div class="hidden">
+
+                        <a href="https://academia-tan.vercel.app//" target="_blank">
+                            <img src="src/acdemia.png">
+                        </a>
+                        <p>
+                            Academia<br>
+                          Next.js
+                        </p>
+                    </div>
+                </li>
+
+                <li class="project-card">
+                    <div class="hidden">
+                        <a href="https://projeto-pizzaria-omega.vercel.app/" target="_blank">
+                            <img src="src/pizzaria3.png">
+                        </a>
+
+                        <p>Pizzaria
+                            <br>
+                          Html CSS JAVASCRipt
+                        </p>
+                    </div>
+                </li>
+
+                <li class="project-card">
+
+                    <div class="hidden">
+                        <a href="https://lparcondicionados.vercel.app/" target="_blank">
+                            <img src="src/lp-arcondicionado.png">
+                        </a>
+                        <p>
+                            L.Ar Condicionado
+                               <br>
+                          Html CSS JAVASCRipt
+                        </p>
+                    </div>
+                </li>
+
+
+
+                <li class="project-card">
+
+                    <div class="hidden">
+                        <a href="https://clinica-kezia-simoes.vercel.app/" target="_blank">
+                            <img src=" src/clinica.cha.png">
+                        </a>
+
+                        <p>
+                            Clínica 
+
+                            <br>
+                          Html CSS JAVASCRipt
+                        </p>
+                    </div>
+                </li>
+
+
+
+                <li class="project-card">
+
+                    <div class="hidden">
+                        <a href="https:/cardapio-orpin-one.vercel.app/" target="_blank">
+                            <img src="src/cardapio.png">
+                        </a>
+
+                        <p>
+                            Hamburgueria
+
+                               <br>
+                             Html CSS JAVASCRipt
+                        </p>
+                    </div>
+                </li>
+                <li class="project-card">
+
+                    <div class="hidden">
+                        <a href="https:/dudi214.github.io/lange-page/" target="_blank">
+                            <img src="src/landepag.png">
+                        </a>
+                        <p>
+                            Landing Page
+                        </p>
+                    </div>
+                </li>
+                <li class="project-card">
+                    <div class="hidden">
+                        <a href="https:/dudi214.github.io/Projeto-venda-Controle/" target="_blank">
+                            <img src="src/projeto.controlee.png">
+                        </a>
+                        <p>
+                              Site Controle
+
+                            <br>
+                          Html CSS JAVASCRipt
+                        </p>
+                    </div>
+                </li>
+
+                <li class="project-card">
+                    <div class="hidden">
+                        <a href="https://dudi214.github.io/Projeto-one-pierce/" target="_blank">
+                            <img src="src/one.pirce.png">
+                        </a>
+                        <p>
+                              Projeto-one-pierce
+
+                            <br>
+                          Html CSS JAVASCRipt
+                        </p>
+                    </div>
+                </li>
+
+                
+                <li class="project-card">
+                    <div class="hidden">
+                        <a href="https://cardapio-confeitaria.vercel.app/" target="_blank">
+                            <img src="src/confeitaria.png">
+                        </a>
+                        <p>
+                              Confeitaria
+
+                            <br>
+                          Html CSS JAVASCRipt
+                        </p>
+                    </div>
+                </li>
+
+
+                
+
+
+
+            </ul>
+
+
+            <div class="skills-box">
+
+                <h1>HABILIDADES</h1>
+
+                <ul id="skill-list">
+
+                    <div class="hidden">
+                        <li class="card-skill" id="html-card">
+
+                            <i class="ri-html5-line" id="icons"></i>
+                            <h2>HTML</h2>
+                            <p class="card-p">Estruturação de conteúdo web usando elementos de marcação HTML,
+                                como tags e atributos, para construir interfaces e layouts funcionais.</p>
+
+                        </li>
+                    </div>
+
+                    <div class="hidden">
+                        <li class="card-skill" id="css-card">
+
+                            <i class="ri-css3-fill" id="icons"></i>
+                            <h2>CSS</h2>
+                            <p class="card-p">Criação de layouts atraentes e responsivos, controle do posicionamento,
+                                das cores, das fontes e de outros aspectos visuais dos elementos HTML.</p>
+
+                        </li>
+                    </div>
+
+                    <div class="hidden">
+                        <li class="card-skill" id="js-card">
+
+                            <i class="ri-javascript-line" id="icons"></i>
+                            <h2>JavaScript</h2>
+                            <p class="card-p">Manipulação do HTML, resposta a eventos, validação de formulários,
+                                criação de animações e funcionalidades complexas para uma experiência de usuário
+                                envolvente.
+                            </p>
+
+                        </li>
+                    </div>
+
+                    <div class="hidden">
+                        <li class="card-skill" id="react-card">
+
+                            <i class="ri-reactjs-line" id="icons"></i>
+                            <h2>React.js</h2>
+                            <p class="card-p">Manipulação eficiente do DOM virtual, gerenciamento de estado e
+                                componentes
+                                reutilizáveis. Formulários interativos,
+                                animações fluidas e experiência de usuário envolvente.</p>
+                        </li>
+                    </div>
+
+                    <div class="hidden">
+                        <li class="card-skill" id="node-card">
+
+                            <i class="ri-nodejs-line" id="icons"></i>
+                            <h2>Node.js</h2>
+                            <p class="card-p">Manipulação de servidores web, resposta a solicitações de eventos,
+                                desenvolvimento de APIs e aplicativos
+                                escaláveis para proporcionar uma experiência de usuário dinâmica e interativa.</p>
+
+                        </li>
+                    </div>
+
+                    <div class="hidden">
+                        <li class="card-skill" id="next-card">
+
+                            <i class="ri-nextjs-line" id="icons"></i>
+                            <h2>Next.js</h2>
+                            <p class="card-p">Desenvolvimento de aplicações React com renderização híbrida, 
+                                manipulação eficiente de rotas e dados no servidor, criação de APIs internas e otimização de desempenho para experiências rápidas e escaláveis..</p>
+
+                        </li>
+                    </div>
+
+                </ul>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <footer class="footer-container">
+            <span class="blurFooter"></span>
+
+            <h4>Midias Sociais</h4>
+            <div class="socials">
+                <a href="https://api.whatsapp.com/send?phone=5524999996655" target="_blank"><i
+                        class="ri-whatsapp-line"></i></a>
+                <a href="https://www.instagram.com/eduardo_dias214/" target="_blank"><i class="ri-instagram-line"></i></a>
+                <a href="https://www.linkedin.com/in/eduardodias214/" target="_blank"><i
+                        class="ri-linkedin-box-fill"></i></a>
+                <a href="https://github.com/Dudi214" target="_blank"><i class="ri-github-fill"></i></a>
+
+                <a href="https://www.behance.net/dudi_dias" target="_blank"><i class="ri-behance-fill"></i></a>
+
+            </div>
+
+            <div id="copy">Copyright © 2024 Eduardo dias. All Rights Reserved.</div>
+
+        </footer>
+
+    </main>
+
+
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+
+</html>
