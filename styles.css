@@ -16,14 +16,14 @@
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 0.5s;
+    transition: all 0.10s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0px);
     transform: translateX(0);
-    transition: all 1.2s;
+    transition: all 1.5s;
 }
 
 @keyframes load {
@@ -55,7 +55,7 @@
     background-image: url(./src/loading.2.png);
     background-position: center;
     background-size: contain;
-    animation: load 0.20s infinite linear;
+    animation: load 0.10s infinite linear;
 }
 
 .box-load p {
