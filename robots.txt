@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Link para o seu sitemap (ajuda o Google a achar seus projetos)
+Sitemap: https://portfolio-eduardo-dias214.vercel.app/sitemap.xml
